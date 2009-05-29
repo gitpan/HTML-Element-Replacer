@@ -1,0 +1,17 @@
+.cvsignore
+Changes
+lib/HTML/Element/Replacer.pm
+lib/HTML/Element/Replacer.pod
+Makefile.PL
+MANIFEST
+README
+t/00-load.t
+t/01-replacer.t
+t/boilerplate.t
+t/html/replacer/replacer.exp
+t/html/replacer/replacer.gen
+t/html/replacer/replacer.initial
+t/m/TestUtils.pm
+t/pod-coverage.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)
