@@ -7,7 +7,7 @@
   use HTML::Element::Replacer;
 
   {
-   my $replacer = HTML::Element::Replacer->new(look_down => [ scla => 'mid' ]);
+   my $replacer = HTML::Element::Replacer->new(tree => $tree, look_down => [ scla => 'mid' ]);
  
    for my $data (@data) {
      $replacer->push_clone->defmap(attr_name => $data); # clone and push onto @temp_list

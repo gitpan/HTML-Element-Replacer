@@ -13,6 +13,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+                  'HTML::Element::Library' => 0,
 		  'Moose' => 0.72,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

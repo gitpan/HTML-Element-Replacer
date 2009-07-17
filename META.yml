@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               HTML-Element-Replacer
-version:            0.02
+version:            0.05
 abstract:           ~
 author:
     - Terrence Brannon <tbone@cpan.org>
@@ -11,8 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Moose:       0.72
-    Test::More:  0
+    HTML::Element::Library:  0
+    Moose:                0.72
+    Test::More:           0
 no_index:
     directory:
         - t
