@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               HTML-Element-Replacer
-version:            0.05
+version:            0.06
 abstract:           ~
 author:
     - Terrence Brannon <tbone@cpan.org>
@@ -11,14 +11,15 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    HTML::Element::Library:  0
+    HTML::Element::Library:  4.2
+    HTML::Tree:           3.23
     Moose:                0.72
     Test::More:           0
 no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+generated_by:       ExtUtils::MakeMaker version 6.54
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
