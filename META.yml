@@ -1,25 +1,33 @@
---- #YAML:1.0
-name:               HTML-Element-Replacer
-version:            0.06
-abstract:           ~
+---
+abstract: 'Simplify the HTML::Element clone() - push_content() ritual '
 author:
-    - Terrence Brannon <tbone@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Michael Accardo <accardo@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    HTML::Element::Library:  4.2
-    HTML::Tree:           3.23
-    Moose:                0.72
-    Test::More:           0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+  Carp: '0'
+  Exporter: '0'
+  File::Slurp: '0'
+  FileHandle: '0'
+  HTML::PrettyPrinter: '0'
+  Test::More: '0'
+  TestUtils: '0'
+  lib: '0'
+  strict: '0'
+  warnings: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: HTML-Element-Replacer
+requires:
+  HTML::Element::Library: '0'
+  HTML::TreeBuilder: '0'
+  Moose: '0'
+resources:
+  bugtracker: https://github.com/mixedconnections/html-element-replacer/issues
+  homepage: https://github.com/mixedconnections/html-element-replacer
+  repository: https://github.com/mixedconnections/html-element-replacer.git
+version: '0.02'
