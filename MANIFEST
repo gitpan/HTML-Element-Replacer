@@ -7,11 +7,6 @@ META.yml
 Makefile.PL
 README
 dist.ini
-ex/tables/Base.pm
-ex/tables/README.txt
-ex/tables/table_example.html
-ex/tables/table_example.pl
-ex/tables/table_example.pm
 lib/HTML/Element/Replacer.pm
 lib/HTML/Element/Replacer.pod
 t/00-load.t

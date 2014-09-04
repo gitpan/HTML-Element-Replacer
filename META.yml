@@ -30,4 +30,4 @@ resources:
   bugtracker: https://github.com/mixedconnections/html-element-replacer/issues
   homepage: https://github.com/mixedconnections/html-element-replacer
   repository: https://github.com/mixedconnections/html-element-replacer.git
-version: '0.03'
+version: '0.07'
