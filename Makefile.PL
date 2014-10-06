@@ -31,12 +31,11 @@ my %WriteMakefileArgs = (
     "FileHandle" => 0,
     "HTML::PrettyPrinter" => 0,
     "Test::More" => 0,
-    "TestUtils" => 0,
     "lib" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.07",
+  "VERSION" => "0.08",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -53,7 +52,6 @@ my %FallbackPrereqs = (
   "HTML::TreeBuilder" => 0,
   "Moose" => 0,
   "Test::More" => 0,
-  "TestUtils" => 0,
   "lib" => 0,
   "strict" => 0,
   "warnings" => 0

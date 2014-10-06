@@ -34,7 +34,6 @@
             "FileHandle" : "0",
             "HTML::PrettyPrinter" : "0",
             "Test::More" : "0",
-            "TestUtils" : "0",
             "lib" : "0",
             "strict" : "0",
             "warnings" : "0"
@@ -53,6 +52,6 @@
          "web" : "https://github.com/mixedconnections/html-element-replacer"
       }
    },
-   "version" : "0.07"
+   "version" : "0.08"
 }
 

@@ -9,7 +9,6 @@ build_requires:
   FileHandle: '0'
   HTML::PrettyPrinter: '0'
   Test::More: '0'
-  TestUtils: '0'
   lib: '0'
   strict: '0'
   warnings: '0'
@@ -30,4 +29,4 @@ resources:
   bugtracker: https://github.com/mixedconnections/html-element-replacer/issues
   homepage: https://github.com/mixedconnections/html-element-replacer
   repository: https://github.com/mixedconnections/html-element-replacer.git
-version: '0.07'
+version: '0.08'
